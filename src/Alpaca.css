@@ -1,3 +1,7 @@
+.no-display {
+  display: none;
+}
+
 .alpaca-title {
   font-weight: 700;
   text-align: left !important;
@@ -83,6 +87,7 @@
 
 .toggle-alpaca-btn {
   background-color: blue;
+  color: white;
 }
 
 .test-h3 {

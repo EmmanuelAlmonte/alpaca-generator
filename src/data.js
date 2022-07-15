@@ -249,96 +249,320 @@ const alpacaAccessories = [
 const alpacaStyle = {
   Accessories: [
     {
+      type: 'Accessories',
       partId: 'accessories',
-      style: 'custom-alp', 
+      style: 'custom-alp',
       text: 'earings',
       src: './images/alpaca/accessories/earings.png',
       alt: 'default accessories'
     },
     {
+      type: 'Accessories',
       partId: 'accessories',
-      style: 'custom-alp', 
+      style: 'custom-alp',
       text: 'flower',
       src: './images/alpaca/accessories/flower.png',
       alt: 'flower accessories'
     },
     {
+      type: 'Accessories',
       partId: 'accessories',
-      style: 'custom-alp', 
+      style: 'custom-alp',
       text: 'glasses',
       src: './images/alpaca/accessories/glasses.png',
       alt: 'glasses accessories'
     },
     {
+      type: 'Accessories',
       partId: 'accessories',
-      style: 'custom-alp', 
+      style: 'custom-alp',
       text: 'headphones',
       src: './images/alpaca/accessories/headphone.png',
       alt: 'headphone accessories'
     }
   ],
   Backgrounds: [
-    { text: 'blue50', src: './images/alpaca/backgrounds/blue50.png' },
-    { text: 'blue60', src: './images/alpaca/backgrounds/blue60.png' },
-    { text: 'blue70', src: './images/alpaca/backgrounds/blue70.png' },
-    { text: 'darkblue30', src: './images/alpaca/backgrounds/darkblue30.png' },
-    { text: 'darkblue50', src: './images/alpaca/backgrounds/darkblue50.png' },
-    { text: 'darkblue70', src: './images/alpaca/backgrounds/darkblue70.png' },
-    { text: 'green50', src: './images/alpaca/backgrounds/green50.png' },
-    { text: 'green60', src: './images/alpaca/backgrounds/green60.png' },
-    { text: 'green70', src: './images/alpaca/backgrounds/green70.png' },
-    { text: 'grey40', src: './images/alpaca/backgrounds/grey40.png' },
-    { text: 'grey70', src: './images/alpaca/backgrounds/grey70.png' },
-    { text: 'grey80', src: './images/alpaca/backgrounds/grey80.png' },
-    { text: 'red50', src: './images/alpaca/backgrounds/red50.png' },
-    { text: 'red60', src: './images/alpaca/backgrounds/red60.png' },
-    { text: 'red70', src: './images/alpaca/backgrounds/red70.png' },
-    { text: 'yellow50', src: './images/alpaca/backgrounds/yellow50.png' },
-    { text: 'yellow60', src: './images/alpaca/backgrounds/yellow60.png' },
-    { text: 'yellow70', src: './images/alpaca/backgrounds/yellow70.png' }
+    {
+      type: 'Backgrounds',
+      partId: 'background',
+      style: 'custom-alp',
+      text: 'light blue',
+      src: './images/alpaca/backgrounds/blue60.png',
+      alt: 'light-blue'
+    },
+    {
+      type: 'Backgrounds',
+      partId: 'background',
+      style: 'custom-alp',
+      text: 'dark blue',
+      src: './images/alpaca/backgrounds/darkblue50.png',
+      alt: 'dark-blue'
+    },
+    {
+      type: 'Backgrounds',
+      partId: 'background',
+      style: 'custom-alp',
+      text: 'green',
+      src: './images/alpaca/backgrounds/green60.png',
+      alt: 'green'
+    },
+    {
+      type: 'Backgrounds',
+      partId: 'background',
+      style: 'custom-alp',
+      text: 'grey',
+      src: './images/alpaca/backgrounds/grey70.png',
+      alt: 'grey'
+    },
+    {
+      type: 'Backgrounds',
+      partId: 'background',
+      style: 'custom-alp',
+      text: 'orange',
+      src: './images/alpaca/backgrounds/red50.png',
+      alt: 'orange'
+    },
+    {
+      type: 'Backgrounds',
+      partId: 'background',
+      style: 'custom-alp',
+      text: 'red',
+      src: './images/alpaca/backgrounds/red70.png',
+      alt: 'red'
+    },
+    {
+      type: 'Backgrounds',
+      partId: 'background',
+      style: 'custom-alp',
+      text: 'yellow',
+      src: './images/alpaca/backgrounds/yellow50.png',
+      alt: 'yellow'
+    }
   ],
   Ears: [
-    { text: 'default', src: './images/alpaca/ears/default.png' },
-    { text: 'forward', src: './images/alpaca/ears/tilt-forward.png' },
-    { text: 'backward', src: './images/alpaca/ears/tilt-backward.png' }
+    {
+      type: 'Ears',
+      partId: 'ears',
+      style: 'custom-alp',
+      text: 'default',
+      src: './images/alpaca/ears/default.png',
+      alt: 'default'
+    },
+    {
+      type: 'Ears',
+      partId: 'ears',
+      style: 'custom-alp',
+      text: 'forward',
+      src: './images/alpaca/ears/tilt-forward.png',
+      alt: 'tilt forward'
+    },
+    {
+      type: 'Ears',
+      partId: 'ears',
+      style: 'custom-alp',
+      text: 'backward',
+      src: './images/alpaca/ears/tilt-backward.png',
+      alt: 'tilt backward'
+    }
   ],
   Eyes: [
-    { text: 'default', src: './images/alpaca/eyes/default.png' },
-    { text: 'angry', src: './images/alpaca/eyes/angry.png' },
-    { text: 'naugthy', src: './images/alpaca/eyes/naugthy.png' },
-    { text: 'panda', src: './images/alpaca/eyes/panda.png' },
-    { text: 'smart', src: './images/alpaca/eyes/smart.png' },
-    { text: 'star', src: './images/alpaca/eyes/star.png' }
+    {
+      partId: 'eyes',
+      style: 'custom-alp',
+      text: 'default',
+      src: './images/alpaca/eyes/default.png',
+      alt: 'default'
+    },
+    {
+      partId: 'eyes',
+      style: 'custom-alp',
+      text: 'angry',
+      src: './images/alpaca/eyes/angry.png',
+      alt: 'angry'
+    },
+    {
+      partId: 'eyes',
+      style: 'custom-alp',
+      text: 'naugthy',
+      src: './images/alpaca/eyes/naughty.png',
+      alt: 'naughty'
+    },
+    {
+      partId: 'eyes',
+      style: 'custom-alp',
+      text: 'panda',
+      src: './images/alpaca/eyes/panda.png',
+      alt: 'panda'
+    },
+    {
+      partId: 'eyes',
+      style: 'custom-alp',
+      text: 'smart',
+      src: './images/alpaca/eyes/smart.png',
+      alt: 'smart'
+    },
+    {
+      partId: 'eyes',
+      style: 'custom-alp',
+      text: 'star',
+      src: './images/alpaca/eyes/star.png',
+      alt: 'star'
+    }
   ],
   Hair: [
-    { text: 'default', src: './images/alpaca/hair/default.png' },
-    { text: 'bang', src: './images/alpaca/hair/bang.png' },
-    { text: 'curls', src: './images/alpaca/hair/curls.png' },
-    { text: 'elegant', src: './images/alpaca/hair/elegant.png' },
-    { text: 'fancy', src: './images/alpaca/hair/fancy.png' },
-    { text: 'quiff', src: './images/alpaca/hair/quiff.png' },
-    { text: 'short', src: './images/alpaca/hair/short.png' }
+    {
+      partId: 'hair',
+      style: 'custom-alp',
+      text: 'default',
+      src: './images/alpaca/hair/default.png',
+      alt: 'default'
+    },
+    {
+      partId: 'hair',
+      style: 'custom-alp',
+      text: 'bang',
+      src: './images/alpaca/hair/bang.png',
+      alt: 'bang'
+    },
+    {
+      partId: 'hair',
+      style: 'custom-alp',
+      text: 'curls',
+      src: './images/alpaca/hair/curls.png',
+      alt: 'curls'
+    },
+    {
+      partId: 'hair',
+      style: 'custom-alp',
+      text: 'elegant',
+      src: './images/alpaca/hair/elegant.png',
+      alt: 'elegant'
+    },
+    {
+      partId: 'hair',
+      style: 'custom-alp',
+      text: 'fancy',
+      src: './images/alpaca/hair/fancy.png',
+      alt: 'fancy'
+    },
+    {
+      partId: 'hair',
+      style: 'custom-alp',
+      text: 'short',
+      src: './images/alpaca/hair/short.png',
+      alt: 'short'
+    }
   ],
   Leg: [
-    { text: 'default', src: './images/alpaca/leg/default.png' },
-    { text: 'bubble-tea', src: './images/alpaca/leg/bubble-tea.png' },
-    { text: 'cookie', src: './images/alpaca/leg/cookie.png' },
-    { text: 'game-console', src: './images/alpaca/leg/game-console.png' },
-    { text: 'forward', src: './images/alpaca/leg/tilt-forward.png' },
-    { text: 'backward', src: './images/alpaca/leg/tilt-backward.png' }
+    {
+      partId: 'leg',
+      style: 'custom-alp',
+      text: 'default',
+      src: './images/alpaca/leg/default.png',
+      alt: 'default'
+    },
+    {
+      partId: 'leg',
+      style: 'custom-alp',
+      text: 'bubble-tea',
+      src: './images/alpaca/leg/bubble-tea.png',
+      alt: 'bubble-tea'
+    },
+    {
+      partId: 'leg',
+      style: 'custom-alp',
+      text: 'cookie',
+      src: './images/alpaca/leg/cookie.png',
+      alt: 'cookie'
+    },
+    {
+      partId: 'leg',
+      style: 'custom-alp',
+      text: 'game-console',
+      src: './images/alpaca/leg/game-console.png',
+      alt: 'game-console'
+    },
+    {
+      partId: 'leg',
+      style: 'custom-alp',
+      text: 'forward',
+      src: './images/alpaca/leg/tilt-forward.png',
+      alt: 'forward'
+    },
+    {
+      partId: 'leg',
+      style: 'custom-alp',
+      text: 'backward',
+      src: './images/alpaca/leg/tilt-backward.png',
+      alt: 'backward'
+    }
   ],
   Mouth: [
-    { text: 'default', src: './images/alpaca/mouth/default.png' },
-    { text: 'astonished', src: './images/alpaca/mouth/astonished.png' },
-    { text: 'eating', src: './images/alpaca/mouth/eating.png' },
-    { text: 'laugh', src: './images/alpaca/mouth/laugh.png' },
-    { text: 'tongue', src: './images/alpaca/mouth/tongue.png' }
+    {
+      partId: 'mouth',
+      style: 'custom-alp',
+      text: 'default',
+      src: './images/alpaca/mouth/default.png',
+      alt: 'default'
+    },
+    {
+      partId: 'mouth',
+      style: 'custom-alp',
+      text: 'astonished',
+      src: './images/alpaca/mouth/astonished.png',
+      alt: 'astonished'
+    },
+    {
+      partId: 'mouth',
+      style: 'custom-alp',
+      text: 'eating',
+      src: './images/alpaca/mouth/eating.png',
+      alt: 'eating'
+    },
+    {
+      partId: 'mouth',
+      style: 'custom-alp',
+      text: 'laugh',
+      src: './images/alpaca/mouth/laugh.png',
+      alt: 'laugh'
+    },
+    {
+      partId: 'mouth',
+      style: 'custom-alp',
+      text: 'tongue',
+      src: './images/alpaca/mouth/tongue.png',
+      alt: 'tongue'
+    }
   ],
   Neck: [
-    { text: 'default', src: './images/alpaca/neck/default.png' },
-    { text: 'bend-forward', src: './images/alpaca/neck/bend-forward.png' },
-    { text: 'bend-backward', src: './images/alpaca/neck/bend-backward.png' },
-    { text: 'thick', src: './images/alpaca/neck/thick.png' }
+    {
+      partId: 'neck',
+      style: 'custom-alp',
+      text: 'default',
+      src: './images/alpaca/neck/default.png',
+      alt: 'default'
+    },
+    {
+      partId: 'neck',
+      style: 'custom-alp',
+      text: 'bend-forward',
+      src: './images/alpaca/neck/bend-forward.png',
+      alt: 'bend-forward'
+    },
+    {
+      partId: 'neck',
+      style: 'custom-alp',
+      text: 'bend-backward',
+      src: './images/alpaca/neck/bend-backward.png',
+      alt: 'bend-backward'
+    },
+    {
+      partId: 'neck',
+      style: 'custom-alp',
+      text: 'thick',
+      src: './images/alpaca/neck/thick.png',
+      alt: 'thick'
+    }
   ]
 }
 
